@@ -1,0 +1,103 @@
+1)  int a=5;                                    //6
+    if(a++ >5){                                //(5>5)
+        printf("a was greater than 5\n");
+    }
+    else{ 
+        printf("a was not greater than 5\n");   //  a was not greater than 5
+    }
+    printf("now ,a is: %d\n",a);                //  now ,a is: 6
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _     
+2)    int a=5;                               // 6 
+    if(++a >5){                              // (6>5)
+        printf("a is greater than 5\n");
+    }
+    else{
+        printf("a is not greater than 5\n");  // a is greater than 5
+    }                                     
+    printf("now ,a is: %d\n",a);              // now ,a is: 6
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+3)    int b=5;                                // 4
+    if(b-- <5){                              // (5<5)
+        printf("b was less than 5\n");
+    }
+    else{
+        printf("b was not less than 5\n");  // b was not less than 5
+    }
+    printf("now ,b is: %d\n",b);            // now ,b is: 4
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+4)    int b=5;                             // 5
+    if(--b <5){                            // (4<5)
+        printf("b is less than 5\n");
+    }
+    else{
+        printf("b is not less than 5\n");  // b is less than 5
+    }
+    printf("now ,b is: %d\n",b);           //  now ,b is: 4
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+5)     int x=15;                          //16
+    
+  if(x >10){                              // (16>10)
+      x++;  // increment
+      if(x >20){                          // (16>20)
+          printf("x is now greater than 20\n");
+      }
+      else{
+          printf("x is not greater than 20\n");
+       }
+     }  
+     
+    else{
+        printf("x is not greater than 10\n");  // x is not greater than 20
+    }
+    printf("now ,x is: %d\n",x);              // now ,x is: 16
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+6)     int a=0;                        // 0
+    a++;  // increment                // 1
+    a--;  // decrement                // 0
+    
+  if(a >0) {
+      printf("a is positive\n");
+  }
+  else{
+      printf("a is not positive")      // a is not positive
+  }
+  printf("now, a is: %d\n",a);         // now, a is: 0
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+7)      int c=8;                           // 8
+    c++;    // increment                   // 9
+    c--;    // decrement                   // 8
+    c+= 5;  // increment c by 5            // 13
+    c-= 10; // decrement c by 5            // 3
+    
+  if(c >=0) {                              // (3>=0)
+      printf("c is greater than or equal to 0\n");
+  }
+  else{
+      printf("c is less than 0\n");        // c is greater than or equal to 0
+  }
+  printf("now, c is: %d\n",c);             //  now, c is: 3
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+8)   int d = 12;
+    int e = 8;
+    d++;  // increment d                    // 13
+    e--;  // decrement e                    // 7
+    
+    if(d > e)                                 // (13>7)
+    {
+       printf("d is greater or equal e\n");
+    }
+    else if(d<e)
+    {
+        printf("d is less than e\n");
+    }
+    else {
+        printf("d is equal toe\n");             // d is greater or equal e
+    }
+     printf("now: d is: %d and e is:%d",d,e);   // now: d is: 13 and e is:7
